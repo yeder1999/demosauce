@@ -8,5 +8,8 @@ class Actions {
         await element.clearValue(value)
         await element.setValue(value)
     }
+    async ScrollIntoView(element){
+        await element.scrollIntoView()
+    }
 }
 module.exports = new Actions()
